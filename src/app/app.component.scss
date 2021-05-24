@@ -1,0 +1,48 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+    
+
+    .navbar{
+        position: relative;
+       a
+       {  font-size: large;
+        .mat-icon{
+            font-size: 35px;
+            padding-left: 50px;
+        } 
+        }
+        span{
+            font-size: 35px;
+            justify-content: baseline;
+            user-select: none;
+            cursor: pointer;
+        }
+        #search{
+            width: 400px;
+        }
+    }
+
+
+.mat-sidenav{
+    width: 170px;
+    text-align: center;
+    vertical-align: baseline;
+    button{
+        width: 170px;
+     }
+    .mat-icon{
+        font-size: 40px;
+        padding-right: 40px;
+        user-select: none;
+        cursor: pointer;
+    }
+    a{
+        color: black;
+    }
+}
+.mat-sidenav-content{
+    button{
+        width:100px;
+    }
+}

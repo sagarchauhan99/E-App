@@ -1,0 +1,167 @@
+{
+  "userDetails": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "cart": []
+    },
+    {
+      "id": 2,
+      "name": "shubham sharma",
+      "phoneNumber": 897987998,
+      "email": "shubham@gmail.com",
+      "password": "shubham123",
+      "address": "79-B,E-3",
+      "zip": "201301",
+      "block": "false",
+      "cart": "[]"
+    },
+    {
+      "id": 3,
+      "name": "vineet",
+      "phoneNumber": 897987979,
+      "email": "vineet@gmail.com",
+      "password": "vineet123",
+      "address": "sonipat",
+      "zip": "123213",
+      "verified": "false",
+      "cart": "[]"
+    },
+    {
+      "id": 4,
+      "name": "SAGAR CHAUHAN",
+      "phoneNumber": 7042081223,
+      "email": "sagarcx3600@gmail.com",
+      "password": "sagar123",
+      "address": "79-B,E-3",
+      "zip": "201301",
+      "verified": "false",
+      "cart": "[]"
+    }
+  ],
+  "productDetails": [
+    {
+      "name": "Cinthol",
+      "price": "89",
+      "category": "home",
+      "description": "cool bath soap",
+      "image": "/assets/Pics/61WLEqkaPmL._AC_SX360_SY240_QL70_.jpg"
+    },
+    {
+      "name": "Hat",
+      "price": "690",
+      "category": "fashion",
+      "description": "brown leather",
+      "image": "/assets/Pics/Hat-1.jpg"
+    },
+    {
+      "name": "Apple MacBook Pro",
+      "price": "97990",
+      "category": "electronics",
+      "description": "13-inch,8GB RAM,256 SSD",
+      "image": "/assets/Pics/41HiLejNULL.jpg"
+    },
+    {
+      "name": "Mi Notebook Horizon",
+      "price": "59999",
+      "category": "electronics",
+      "description": "14-inch,i7 10th gen",
+      "image": "/assets/Pics/41zWRIfFyDL.jpg"
+    },
+    {
+      "name": "Microsoft Surface 3",
+      "price": "103999",
+      "category": "electronics",
+      "description": "13.5-inch,i5 10th gen touchscreen",
+      "image": "/assets/Pics/31fcb+HkMBL.jpg"
+    },
+    {
+      "name": "Max",
+      "price": "69",
+      "category": "fashion",
+      "description": "Regular Tshirt",
+      "image": "/assets/Pics/81bkSZu1PeL._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Apple Iphone 12",
+      "price": "75900",
+      "category": "electronics",
+      "description": "128 GB",
+      "image": "/assets/Pics/71ZOtNdaZCL._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Jockey",
+      "price": "465",
+      "category": "Fashion",
+      "description": "Men's Cotton T-Shirt",
+      "image": "/assets/Pics/815KMkJ6u1S._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Casio",
+      "price": "15995",
+      "category": "fashion",
+      "description": "Gshock GG-1000",
+      "image": "/assets/Pics/71hgZEw52gL._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Allen Solly",
+      "price": "539",
+      "category": "fashion",
+      "description": "Men's Polo",
+      "image": "/assets/Pics/91f9aIz-cWL._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Casio",
+      "price": "4695",
+      "category": "fashion",
+      "description": "Enticer black",
+      "image": "/assets/Pics/61s6PtyT-YL._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Fossil",
+      "price": "22995",
+      "category": "fashion",
+      "description": "Gen 5 Carlyle",
+      "image": "/assets/Pics/71XWG48C-NL._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Black + Decker",
+      "price": "1649",
+      "category": "tool",
+      "description": "Home DIY",
+      "image": "/assets/Pics/91+Z+Uk2qoL._AC_UL480_FMwebp_QL65_.webp"
+    },
+    {
+      "name": "Wulf",
+      "price": "599",
+      "category": "tool",
+      "description": "Claw Hammer",
+      "image": "/assets/Pics/311+DM0wjYL._AC_SX480_SY360_.jpg"
+    },
+    {
+      "name": "hat",
+      "price": "69",
+      "category": "cloth",
+      "description": "ho",
+      "image": "/assets/Pics/Hat-1.jpg"
+    },
+    {
+      "name": "hat",
+      "price": "69",
+      "category": "cloth",
+      "description": "ho",
+      "image": "/assets/Pics/Hat-1.jpg"
+    },
+    {
+      "name": "hat",
+      "price": "69",
+      "category": "cloth",
+      "description": "ho",
+      "image": "/assets/Pics/Hat-1.jpg"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

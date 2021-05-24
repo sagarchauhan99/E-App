@@ -1,0 +1,45 @@
+<div class="cart">
+    <button class=" btn mdc-fab" aria-label="Favorite" (click)="checkout()">
+        <div class="mdc-fab__ripple"></div>
+        <mat-icon>shopping_cart</mat-icon>
+      </button>{{ totalItems }}
+</div>
+
+<div class="filter">
+    <mat-form-field appearance="fill">
+        <mat-label>Select Category</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option>None</mat-option>
+          <mat-option value="option1">Fashion</mat-option>
+          <mat-option value="option2">Electronics</mat-option>
+          <mat-option value="option3">Tool</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="price">
+        <input type="button" class="btn btn-outline-secondary" (click)="lowtohigh()" value="Low To High">&nbsp;
+        <input type="button" class="btn btn-outline-secondary" (click)="hightolow()" value="High To Low">
+    </div>
+</div>
+
+<div class="container"  style="display: flex;padding-left: 70px;gap: 40px;flex-wrap: wrap;padding-bottom: 50px;">
+    <mat-card *ngFor="let product of Plist">
+        <img mat-card-image [src]="product.image" [alt]="image"> 
+        <mat-card-header>
+            {{ product.name }}
+        </mat-card-header>
+    <mat-card-subtitle>
+        <ul>
+            <li><b>{{ product.price |currency:'INR':'symbol-narrow' }}</b></li>
+            <li>{{ product.description }}</li>
+        </ul>
+    </mat-card-subtitle>  
+    <mat-card-actions>
+        <button type="button" class="btn btn-primary" (click)="addToCart(product)"><mat-icon>add_shopping_cart</mat-icon>Add to cart</button>&nbsp;
+        <button type="button" class="btn btn-secondary" (click)="checkout()">Checkout</button>
+    </mat-card-actions>          
+    </mat-card>  
+</div>  
+
+<div style="background-color:midnightblue;text-align: center;color: mintcream;position: relative;">
+    <footer>Copyright 2021</footer>
+    </div>

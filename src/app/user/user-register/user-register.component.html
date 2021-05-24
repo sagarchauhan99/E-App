@@ -1,0 +1,84 @@
+
+  <div class="heading">
+    <p>Welcome</p>
+  </div>
+    <br>
+    <div class="container">
+        <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+              <br>
+              <div class="col">
+                <input type="number" class="form-control" placeholder="ID" formControlName="id" required>
+              </div>
+              <br>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Full Name" formControlName="name" required>
+                </div>
+                <br>
+                <div class="col">
+                  <input type="number" class="form-control" placeholder="Phone Number" formControlName="phoneNumber" required>
+                </div>
+                <br>
+              <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="sagaxxx@xxx.com"  formControlName="email" required>
+              </div>
+              <br>
+              <div class="col-md-12">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="text" class="form-control" id="inputPassword" placeholder="M2y1sghha%" formControlName="password" required>
+               <br>
+               <label for="inputPassword4" class="form-label"> Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword"  required>
+                
+            </div>
+              <br>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" formControlName="address">
+              </div>
+              <br> 
+              <br>
+              <br>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip" formControlName="zip">
+              </div>
+              <br>
+              <br>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Accecpt terms and conditions.
+                  </label>
+                </div>
+              </div>
+              <br>
+             <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+             </div>
+        </form>
+    </div>
+<div class="verify"> 
+    <form class="contact-form" (ngSubmit)="sendEmail($event)">
+      <input [hidden]="true" type="text" name="user_name" [(ngModel)]="name" readonly><br>
+      <br>
+      <label>Email</label>
+      <input type="email"  name="user_email"  [(ngModel)]="email" readonly><br>
+      <br>
+      <textarea name="message"  [hidden]="true" [(ngModel)]="otp"></textarea>
+      <br>
+      <input type="submit" class="btn btn-secondary" value="Send Otp">
+  </form>
+  <div *ngIf="verifyclicked" class="container"id="verifybox">
+    <h4>Otp has been sent </h4>
+    <input type="number"class="form-control"[(ngModel)]="verifyotp">
+    <br>
+    <button (click)="verification()"  class="btn btn-success">verify</button>
+</div>
+</div>
+
+<div style="background-color:midnightblue;text-align: center;color: mintcream;position: relative;">
+  <footer>Copyright 2021</footer>
+  </div>
+

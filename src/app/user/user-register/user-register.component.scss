@@ -1,0 +1,32 @@
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow:currentColor;
+}
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.verify{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: beige;
+    border-style: double;
+    border-width: medium;
+    
+    input{
+        display: flex;
+        justify-content: center;
+        width: 250px;
+    }
+}

@@ -1,0 +1,27 @@
+
+
+<div class="heading">
+  <h2>Cart</h2>
+</div>
+<div class="final">
+  <div class="cart-item" *ngFor="let item of items">
+    <ul class="list-group list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">{{ item.name }}</div>
+            {{ item.description }}
+          </div>
+          <span class="badge bg-primary rounded-pill">{{ item.price | currency:'INR':'symbol-narrow' }}</span>
+        </li>
+    </ul>
+  </div>
+    <hr>
+    <div class="total">
+        <h3>TOTAL:</h3>
+        {{ totalAmount |currency:'INR':'symbol-narrow' }}
+    </div> 
+</div>
+
+<div style="background-color:midnightblue;text-align: center;color: mintcream;position: relative;vertical-align: bottom;">
+    <footer>Copyright 2021</footer>
+    </div>

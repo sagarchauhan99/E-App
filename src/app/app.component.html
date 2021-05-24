@@ -1,0 +1,56 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="main-container">
+<div class="top" >
+  <nav class="navbar" style="background-color: rgb(18, 104, 202);">
+    <div style="display: flex;gap: 200px;">
+       <a><mat-icon aria-hidden="false" aria-label="Example home icon">flash_on</mat-icon></a>
+       <div style="display: flex;">
+       <a class="nav-link active" aria-current="page" href="#" routerLink="login" style="color: black;">Login</a>
+       <span class="material-icons">login</span>
+      </div>
+      <form class="d-flex">
+        <input id="search" class="form-control me-2" style="justify-content: right;" type="search" placeholder="Type here.." aria-label="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</div>
+<mat-sidenav-container class="example-container" (backdropClick)="sidenav.close()" style="background-color: rgb(143, 214, 216);height:100%;">
+  <mat-sidenav #sidenav (keydown.escape)="close('escape')" style="background: rgb(240, 194, 135);text-align: center;"  disableClose>
+    <p><button mat-button (click)="sidenav.close()" class="btn btn-secondary">Close</button></p>
+    <br>
+    <a routerLink="routeName"><mat-icon class="material-icons-outlined">
+      home
+    </mat-icon></a>
+    <p>Home</p>
+    <br>
+    <a routerLink="/list/+id"><mat-icon>shop</mat-icon></a>
+    <p>Products</p>
+    <br>
+    <a routerLink="/home/'+id"><mat-icon>manage_accounts</mat-icon></a>
+    <p>Account Details</p>
+    <br>
+    <a><mat-icon>logout</mat-icon></a>
+    <p>Log-Out</p>
+    <br>
+  </mat-sidenav>
+
+  <mat-sidenav-content style="height: 530px;">
+    <p><button mat-button (click)="sidenav.open()" class="btn btn-secondary">
+      <span class="material-icons">dehaze</span>
+      </button></p>
+    
+    
+      <section>  
+        <router-outlet></router-outlet>
+      </section>
+    
+  
+
+
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+    
+
+    
