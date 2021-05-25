@@ -78,7 +78,7 @@
     },
     {
       "name": "Max",
-      "price": "69",
+      "price": "900",
       "category": "fashion",
       "description": "Regular Tshirt",
       "image": "/assets/Pics/81bkSZu1PeL._AC_UL480_FMwebp_QL65_.webp"
@@ -140,25 +140,25 @@
       "image": "/assets/Pics/311+DM0wjYL._AC_SX480_SY360_.jpg"
     },
     {
-      "name": "hat",
-      "price": "69",
-      "category": "cloth",
-      "description": "ho",
-      "image": "/assets/Pics/Hat-1.jpg"
+      "name": "Reebok Classics",
+      "price": "4108",
+      "category": "fashion",
+      "description": "Women's running shoes",
+      "image": "/assets/Pics/615B7mH0FzL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
-      "name": "hat",
-      "price": "69",
-      "category": "cloth",
-      "description": "ho",
-      "image": "/assets/Pics/Hat-1.jpg"
+      "name": "Apple Watch Series 6",
+      "price": "43900",
+      "category": "electronics",
+      "description": "GPS,44mm",
+      "image": "/assets/Pics/81zERzYAKuL._AC_UY327_FMwebp_QL65_.webp"
     },
     {
-      "name": "hat",
-      "price": "69",
-      "category": "cloth",
-      "description": "ho",
-      "image": "/assets/Pics/Hat-1.jpg"
+      "name": "Dr Trust(USA)",
+      "price": "2499",
+      "category": "tool",
+      "description": "Infrared Thermometer",
+      "image": "/assets/Pics/41gT4ig8RFL.jpg"
     }
   ],
   "profile": {
