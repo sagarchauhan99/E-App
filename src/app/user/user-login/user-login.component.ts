@@ -21,7 +21,7 @@ export class UserLoginComponent implements OnInit {
       console.log(data,'data from server');
       this.userdetails=data;
       for(let i=0;i<this.userdetails.length;i++)
-    if( this.email==this.userdetails[i].email && this.password==this.userdetails[i].password)
+    if( this.email==this.userdetails[i].email && this.password==this.userdetails[i].password && this.userdetails[i].verified=="true")
     {
       console.log('valid user');
       localStorage.setItem("validUser","pass");

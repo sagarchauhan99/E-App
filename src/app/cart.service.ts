@@ -11,7 +11,13 @@ export class CartService {
   constructor() { }
 
   addToCart(product) {
-    this.items.push(product);
+//    const productExistInCart = this.items.find(({name}) => name === product.name); 
+//   if (!productExistInCart) {
+//     this.items.push({...product, num:1}); 
+//     return;
+//   }
+ //  productExistInCart.num += 1;
+   this.items.push(product);
   }
 
   getItems() {

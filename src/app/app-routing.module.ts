@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AppComponent } from './app.component';
 import { AuthGuard } from './auth.guard';
 import { CheckoutComponent } from './product/checkout/checkout.component';
 import { HomeComponent } from './product/home/home.component';
@@ -13,9 +14,10 @@ const routes: Routes = [
  //   loadChildren:()=> import('./user/user.module').then(m => m.UserModule)
   },
   {path:'register',component:UserRegisterComponent},
-  {path:'list/:id',component:ListComponent,canActivateChild:[AuthGuard]},
-  {path:'checkout/:id',component:CheckoutComponent,canActivateChild:[AuthGuard]},
-  {path:'home/:id',component:HomeComponent,canActivateChild:[AuthGuard]}
+  {path:'list/:id',component:ListComponent,canActivate:[AuthGuard]},
+  {path:'checkout',component:CheckoutComponent,canActivate:[AuthGuard]},
+  {path:'home/:id',component:HomeComponent,canActivate:[AuthGuard]},
+  {path:'',component:AppComponent}
 ];
 
 @NgModule({

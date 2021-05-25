@@ -69,12 +69,12 @@ cartItem(){
 this.totalItems=this.cartService.items.length;
 }
 checkout(){
-  this.router.navigateByUrl('/checkout/'+this.id);
+  this.router.navigateByUrl('/checkout');
 }
 lowtohigh(){
-  this.Plist.sort((a,b)=> (a.price < b.price ? -1 : 1 ));
+  this.Plist.sort((a,b) => (a.price < b.price ? -1 : 1));;
 }
 hightolow(){
-  this.Plist.sort((a,b)=>(a.price > b.price ? -1 :1));
+  this.Plist.sort((a,b) => (a.price > b.price ? -1 : 1));;
 }
 }

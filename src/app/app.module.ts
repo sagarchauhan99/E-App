@@ -9,11 +9,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatButtonToggleModule, MatCardModule, MatIconModule, MatRippleModule, MatSidenavModule } from '@angular/material';
 import { UserModule } from './user/user.module';
 import { ProductModule } from './product/product.module';
+import { FilterPipe } from './filter.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    FilterPipe
   ],
   imports:[
     BrowserModule,

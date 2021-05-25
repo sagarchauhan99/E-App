@@ -9,7 +9,7 @@ import { CartService } from '../cart.service';
 import { FilterPipe } from '../filter.pipe';
 
 @NgModule({
-  declarations: [CheckoutComponent, ListComponent, HomeComponent,FilterPipe],
+  declarations: [CheckoutComponent, ListComponent, HomeComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -22,7 +22,7 @@ import { FilterPipe } from '../filter.pipe';
     MatSidenavModule,
     MatListModule,
     MatSelectModule,
-    MatSidenavModule
+    MatSidenavModule,
   ],
   exports:[
     CheckoutComponent,

@@ -33,7 +33,7 @@ export class UserRegisterComponent implements OnInit {
       password:['',Validators.required],
       address:[''],
       zip:[''],
-      verified:['false'],
+      verified:['true'],
       cart:['[]'],
     });
   }
@@ -65,7 +65,7 @@ export class UserRegisterComponent implements OnInit {
   verification(){
   
     if(this.verifyotp==this.otp){
-      this.signupForm.value.verified=true;
+      this.signupForm.controls['verified'].setValue(true);
         localStorage.setItem("verifiedUser","pass");
         
           this.route.navigateByUrl('login')

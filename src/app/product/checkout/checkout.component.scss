@@ -1,6 +1,9 @@
 .heading{
     text-align: center;
     justify-content: center;
+  p{  font-weight: 700;
+    font-size: 45px;
+}
 }
 .final{
     padding-bottom: 100px;
@@ -14,4 +17,12 @@
 .total{
     position: relative;
     left:850px;
+}
+
+.checkout{ 
+    position: absolute;
+    right: 300px;
+   
+    
+
 }

@@ -36,126 +36,188 @@
       "password": "sagar123",
       "address": "79-B,E-3",
       "zip": "201301",
+      "verified": "true",
+      "cart": "[]"
+    },
+    {
+      "id": 69,
+      "name": "shubham sharma",
+      "phoneNumber": 67696862,
+      "email": "shubham.eng1999@gmail.com",
+      "password": "shubham123",
+      "address": "gaziabad",
+      "zip": "21312",
+      "verified": "true",
+      "cart": "[]"
+    },
+    {
+      "name": "",
+      "email": "sagarcx3600@gmail.com",
+      "password": "",
+      "address": "79-B,E-3",
+      "zip": "201301",
+      "verified": "false",
+      "cart": "[]",
+      "id": 70
+    },
+    {
+      "id": 77,
+      "name": "SAGAR CHAUHAN",
+      "phoneNumber": 2312312,
+      "email": "sagarcx3600@gmail.com",
+      "password": "sagar123",
+      "address": "79-B,E-3",
+      "zip": "201301",
       "verified": "false",
       "cart": "[]"
+    },
+    {
+      "name": "",
+      "email": "sagarcx3600@gmail.com",
+      "password": "",
+      "address": "79-B,E-3",
+      "zip": "201301",
+      "verified": "false",
+      "cart": "[]",
+      "id": 78
+    },
+    {
+      "name": "ss",
+      "email": "sagarcx3600@gmail.com",
+      "password": "",
+      "address": "79-B,E-3",
+      "zip": "201301",
+      "verified": "false",
+      "cart": "[]",
+      "id": 79
+    },
+    {
+      "name": "sg",
+      "email": "sagarcx3600@gmail.com",
+      "password": "",
+      "address": "79-B,E-3",
+      "zip": "201301",
+      "verified": "false",
+      "cart": "[]",
+      "id": 80
     }
   ],
   "productDetails": [
     {
       "name": "Cinthol",
-      "price": "89",
+      "price": 89,
       "category": "home",
       "description": "cool bath soap",
       "image": "/assets/Pics/61WLEqkaPmL._AC_SX360_SY240_QL70_.jpg"
     },
     {
       "name": "Hat",
-      "price": "690",
+      "price": 690,
       "category": "fashion",
       "description": "brown leather",
       "image": "/assets/Pics/Hat-1.jpg"
     },
     {
       "name": "Apple MacBook Pro",
-      "price": "97990",
+      "price": 97990,
       "category": "electronics",
       "description": "13-inch,8GB RAM,256 SSD",
       "image": "/assets/Pics/41HiLejNULL.jpg"
     },
     {
       "name": "Mi Notebook Horizon",
-      "price": "59999",
+      "price": 59999,
       "category": "electronics",
       "description": "14-inch,i7 10th gen",
       "image": "/assets/Pics/41zWRIfFyDL.jpg"
     },
     {
       "name": "Microsoft Surface 3",
-      "price": "103999",
+      "price": 103999,
       "category": "electronics",
       "description": "13.5-inch,i5 10th gen touchscreen",
       "image": "/assets/Pics/31fcb+HkMBL.jpg"
     },
     {
       "name": "Max",
-      "price": "900",
+      "price": 900,
       "category": "fashion",
       "description": "Regular Tshirt",
       "image": "/assets/Pics/81bkSZu1PeL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Apple Iphone 12",
-      "price": "75900",
+      "price": 75900,
       "category": "electronics",
       "description": "128 GB",
       "image": "/assets/Pics/71ZOtNdaZCL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Jockey",
-      "price": "465",
+      "price": 465,
       "category": "Fashion",
       "description": "Men's Cotton T-Shirt",
       "image": "/assets/Pics/815KMkJ6u1S._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Casio",
-      "price": "15995",
+      "price": 15995,
       "category": "fashion",
       "description": "Gshock GG-1000",
       "image": "/assets/Pics/71hgZEw52gL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Allen Solly",
-      "price": "539",
+      "price": 539,
       "category": "fashion",
       "description": "Men's Polo",
       "image": "/assets/Pics/91f9aIz-cWL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Casio",
-      "price": "4695",
+      "price": 4695,
       "category": "fashion",
       "description": "Enticer black",
       "image": "/assets/Pics/61s6PtyT-YL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Fossil",
-      "price": "22995",
+      "price": 22995,
       "category": "fashion",
       "description": "Gen 5 Carlyle",
       "image": "/assets/Pics/71XWG48C-NL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Black + Decker",
-      "price": "1649",
+      "price": 1649,
       "category": "tool",
       "description": "Home DIY",
       "image": "/assets/Pics/91+Z+Uk2qoL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Wulf",
-      "price": "599",
+      "price": 599,
       "category": "tool",
       "description": "Claw Hammer",
       "image": "/assets/Pics/311+DM0wjYL._AC_SX480_SY360_.jpg"
     },
     {
       "name": "Reebok Classics",
-      "price": "4108",
+      "price": 4108,
       "category": "fashion",
       "description": "Women's running shoes",
       "image": "/assets/Pics/615B7mH0FzL._AC_UL480_FMwebp_QL65_.webp"
     },
     {
       "name": "Apple Watch Series 6",
-      "price": "43900",
+      "price": 43900,
       "category": "electronics",
       "description": "GPS,44mm",
       "image": "/assets/Pics/81zERzYAKuL._AC_UY327_FMwebp_QL65_.webp"
     },
     {
       "name": "Dr Trust(USA)",
-      "price": "2499",
+      "price": 2499,
       "category": "tool",
       "description": "Infrared Thermometer",
       "image": "/assets/Pics/41gT4ig8RFL.jpg"

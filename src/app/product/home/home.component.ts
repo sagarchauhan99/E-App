@@ -15,10 +15,7 @@ export class HomeComponent implements OnInit {
   public alluser:any;
   public searched:any;
   public searcheduser:any;
-  public issearched=false;
-  public friendlist:any;
-  public reqlist:any;
-  public sendreq=[];
+
 
   constructor(private http: HttpClient,
     private route: Router,
@@ -52,6 +49,7 @@ console.log(this.id);
 this.http.get('http://localhost:3000/userDetails/'+ this.id).subscribe((data)=>{
  console.log(data,'data from server') 
  this.prefetch(data);
+ localStorage.setItem('userDetail',JSON.stringify(data));
  this.currentUser=data;
 });
 }

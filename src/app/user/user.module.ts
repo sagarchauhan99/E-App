@@ -13,7 +13,6 @@ import { ProductModule } from '../product/product.module';
     ReactiveFormsModule,
     FormsModule,
     MatSidenavModule,
-    ProductModule
   ],
   exports:[
     UserLoginComponent,

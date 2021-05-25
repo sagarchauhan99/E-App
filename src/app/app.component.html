@@ -24,13 +24,13 @@
     </mat-icon></a>
     <p>Home</p>
     <br>
-    <a routerLink="/list/+id"><mat-icon>shop</mat-icon></a>
+    <a [routerLink]="['list',this.id]"><mat-icon>shop</mat-icon></a>
     <p>Products</p>
     <br>
-    <a routerLink="/home/'+id"><mat-icon>manage_accounts</mat-icon></a>
+    <a routerLink="/home"><mat-icon>manage_accounts</mat-icon></a>
     <p>Account Details</p>
     <br>
-    <a><mat-icon>logout</mat-icon></a>
+    <button class="btn" (click)="signout()"><mat-icon >logout</mat-icon></button>
     <p>Log-Out</p>
     <br>
   </mat-sidenav>
